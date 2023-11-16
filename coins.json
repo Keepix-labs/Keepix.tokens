@@ -109,12 +109,12 @@
                 "chainId": 137
             }
         ],
-        "getPriceByPoolBalance": {
+        "getPriceByPoolUniswapV3": {
             "tokenA": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
             "tokenB": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
             "tokenADecimals": 18,
             "tokenBDecimals": 18,
-            "poolAddress": "0x819f3450da6f110ba6ea52195b3beafa246062de",
+            "poolAddress": "0x290a6a7460b308ee3f19023d2d00de604bcf5b42",
             "blockchain": "ethereum",
             "mulBy": "ETH"
         }
