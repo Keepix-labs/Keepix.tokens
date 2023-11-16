@@ -110,7 +110,13 @@
             }
         ],
         "getPriceByPoolBalance": {
-            "using": "ETH"
+            "tokenA": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+            "tokenB": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenADecimals": 18,
+            "tokenBDecimals": 18,
+            "poolAddress": "0x819f3450da6f110ba6ea52195b3beafa246062de",
+            "blockchain": "ethereum",
+            "mulBy": "ETH"
         }
     }
 }
