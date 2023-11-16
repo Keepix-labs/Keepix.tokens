@@ -1,0 +1,116 @@
+{
+    "bitcoin": {
+        "nativeCoinName": "BTC",
+        "name": "Bitcoin",
+        "type": "bitcoin",
+        "icon": "logos:bitcoin",
+        "getBalanceByQuery": {
+            "url": "https://blockchain.info/balance?active=$address",
+            "method": "GET",
+            "body": {
+                "example": "of body for POST cases $address"
+            },
+            "resultEval": "result[$address].final_balance"
+        },
+        "getPriceByPoolBalance": {
+            "tokenA": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "tokenB": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenADecimals": 8,
+            "tokenBDecimals": 18,
+            "poolAddress": "0xceff51756c56ceffca006cd410b03ffc46dd3a58",
+            "blockchain": "ethereum",
+            "mulBy": "ETH"
+        }
+    },
+    "ethereum": {
+        "nativeCoinName": "ETH",
+        "name": "Ethereum",
+        "type": "evm",
+        "icon": "./icons/ETH.png",
+        "rpcs": [
+            {
+                "url": "https://mainnet.infura.io/v3/00e69497300347a38e75c3287621cb16",
+                "chainId": 1
+            }
+        ],
+        "getPriceByPoolBalance": {
+            "tokenA": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenB": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "tokenADecimals": 18,
+            "tokenBDecimals": 18,
+            "poolAddress": "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11",
+            "blockchain": "ethereum"
+        }
+    },
+    "bsc": {
+        "nativeCoinName": "BNB",
+        "name": "Binance Smart Chain",
+        "type": "evm",
+        "icon": "mingcute:binance-coin-bnb-fill",
+        "rpcs": [
+            {
+                "url": "https://bsc-dataseed1.ninicoin.io",
+                "chainId": 56
+            }
+        ],
+        "getPriceByPoolBalance": {
+            "tokenA": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+            "tokenB": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+            "tokenADecimals": 18,
+            "tokenBDecimals": 18,
+            "poolAddress": "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16",
+            "blockchain": "bsc"
+        }
+    },
+    "avalanche": {
+        "nativeCoinName": "AVAX",
+        "name": "Avalanche",
+        "type": "evm",
+        "icon": "cryptocurrency-color:avax",
+        "rpcs": [
+            {
+                "url": "https://avalanche-mainnet.infura.io/v3/00e69497300347a38e75c3287621cb16",
+                "chainId": 43114
+            }
+        ],
+        "getPriceByPoolBalance": {
+            "tokenA": "0x1ce0c2827e2ef14d5c4f29a091d735a204794041",
+            "tokenB": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+            "tokenADecimals": 18,
+            "tokenBDecimals": 18,
+            "poolAddress": "0x151268db1579ebc5306d4aaa5dcc627646e6986f",
+            "blockchain": "bsc",
+            "mulBy": "BNB"
+        }
+    },
+    "arbitrum": {
+        "nativeCoinName": "ETH",
+        "name": "Arbitrum",
+        "type": "evm",
+        "icon": "./icons/ARB.png",
+        "rpcs": [
+            {
+                "url": "https://arbitrum-mainnet.infura.io/v3/00e69497300347a38e75c3287621cb16",
+                "chainId": 42161
+            }
+        ],
+        "getPriceByPoolBalance": {
+            "using": "ETH"
+        }
+    },
+    "polygon": {
+        "nativeCoinName": "MATIC",
+        "name": "Polygon",
+        "type": "evm",
+        "icon": "cryptocurrency-color:matic",
+        "rpcs": [
+            {
+                "url": "https://rpc-mainnet.maticvigil.com/",
+                "chainId": 137
+            }
+        ],
+        "getPriceByPoolBalance": {
+            "using": "ETH"
+        }
+    }
+}
