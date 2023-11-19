@@ -118,5 +118,22 @@
             "blockchain": "ethereum",
             "mulBy": "ETH"
         }
+    },
+    "tezos": {
+        "nativeCoinName": "XTZ",
+        "name": "Tezos",
+        "type": "tezos",
+        "icon": "./icons/XTZ.png",
+        "rpcs": [
+            {
+                "url": "https://mainnet.ecadinfra.com"
+            },
+            {
+                "url": "https://mainnet.smartpy.io"
+            },
+            {
+                "url": "https://rpc.tzbeta.net"
+            }
+        ]
     }
 }
