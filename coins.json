@@ -134,6 +134,15 @@
             {
                 "url": "https://rpc.tzbeta.net"
             }
-        ]
+        ],
+        "getPriceByPoolUniswapV3": {
+            "tokenA": "0x16939ef78684453bfdfb47825f8a5f714f12623a",
+            "tokenB": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+            "tokenADecimals": 18,
+            "tokenBDecimals": 18,
+            "poolAddress": "0x42ead00e69394ffbb2985c1ea4fbb32aa07f6243",
+            "blockchain": "bsc",
+            "mulBy": "BNB"
+        }
     }
 }
