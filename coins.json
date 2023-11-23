@@ -305,5 +305,16 @@
         "getPriceByPoolBalance": {
             "using": "ETH"
         }
+    },
+    "massa": {
+        "nativeCoinName": "MASSA",
+        "name": "Massa",
+        "type": "massa",
+        "icon": "./icons/MASSA.png",
+        "rpcs": [
+            {
+                "url": "https://massa.net/api/v2"
+            }
+        ]
     }
 }
