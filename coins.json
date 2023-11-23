@@ -316,5 +316,16 @@
                 "url": "https://massa.net/api/v2"
             }
         ]
+    },
+    "massa-testnet": {
+        "nativeCoinName": "MASSA",
+        "name": "Massa Testnet",
+        "type": "massa",
+        "icon": "./icons/MASSA.png",
+        "rpcs": [
+            {
+                "url": "https://test.massa.net/api/v2"
+            }
+        ]
     }
 }
