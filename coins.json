@@ -260,5 +260,30 @@
             "blockchain": "bsc",
             "mulBy": "BNB"
         }
+    },
+    "chiliz": {
+        "nativeCoinName": "CHZ",
+        "name": "Chiliz",
+        "type": "evm",
+        "icon": "./icons/CHZ.png",
+        "rpcs": [
+            {
+                "url": "https://rpc.ankr.com/chiliz",
+                "chainId": 88888
+            },
+            {
+                "url": "https://chiliz.publicnode.com",
+                "chainId": 88888
+            }
+        ],
+        "explorer": "https://chiliscan.com",
+        "getPriceByPoolUniswapV3": {
+            "tokenA": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+            "tokenB": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "tokenADecimals": 18,
+            "tokenBDecimals": 6,
+            "poolAddress": "0xb0f4a77bde7fee134265307c5cc19abff0ba409b",
+            "blockchain": "ethereum"
+        }
     }
 }
