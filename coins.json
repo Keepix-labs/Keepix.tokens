@@ -253,7 +253,7 @@
         ],
         "getPriceByPoolBalance": {
             "tokenA": "0x0eb3a705fc54725037cc9e008bdede697f62f335",
-            "tokenB": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+            "tokenB": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
             "tokenADecimals": 18,
             "tokenBDecimals": 18,
             "poolAddress": "0x5a36e9659f94f27e4526ddf6dd8f0c3b3386d7f3",
@@ -284,6 +284,26 @@
             "tokenBDecimals": 6,
             "poolAddress": "0xb0f4a77bde7fee134265307c5cc19abff0ba409b",
             "blockchain": "ethereum"
+        }
+    },
+    "base": {
+        "nativeCoinName": "ETH",
+        "name": "Base",
+        "type": "evm",
+        "icon": "./icons/base.png",
+        "rpcs": [
+            {
+                "url": "https://1rpc.io/base",
+                "chainId": 8453
+            },
+            {
+                "url": "https://base.publicnode.com",
+                "chainId": 8453
+            }
+        ],
+        "explorer": "https://basescan.org",
+        "getPriceByPoolBalance": {
+            "using": "ETH"
         }
     }
 }
