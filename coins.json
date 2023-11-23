@@ -42,6 +42,22 @@
             "blockchain": "ethereum"
         }
     },
+    "ethereum-holesky": {
+        "nativeCoinName": "ETH",
+        "name": "Holesky (Testnet Ethereum)",
+        "type": "evm",
+        "icon": "./icons/ETH.png",
+        "rpcs": [
+            {
+                "url": "https://ethereum-holesky.publicnode.com",
+                "chainId": 17000
+            },
+            {
+                "url": "https://1rpc.io/holesky",
+                "chainId": 17000
+            }
+        ]
+    },
     "bsc": {
         "nativeCoinName": "BNB",
         "name": "Binance Smart Chain",
@@ -143,6 +159,86 @@
             "poolAddress": "0x42ead00e69394ffbb2985c1ea4fbb32aa07f6243",
             "blockchain": "bsc",
             "mulBy": "BNB"
+        }
+    },
+    "optimism": {
+        "nativeCoinName": "ETH",
+        "name": "Optimism",
+        "type": "evm",
+        "icon": "./icons/optimism.png",
+        "rpcs": [
+            {
+                "url": "https://endpoints.omniatech.io/v1/op/mainnet/public",
+                "chainId": 10
+            }
+        ],
+        "explorer": "https://optimistic.etherscan.io",
+        "getPriceByPoolBalance": {
+            "using": "ETH"
+        }
+    },
+    "ethereum-pow": {
+        "nativeCoinName": "ETHW",
+        "name": "Ethereum POW",
+        "type": "evm",
+        "icon": "./icons/ETHW.png",
+        "rpcs": [
+            {
+                "url": "https://mainnet.ethereumpow.org",
+                "chainId": 10001
+            }
+        ]
+    },
+    "gnosis": {
+        "nativeCoinName": "XDAI",
+        "name": "Optimism",
+        "type": "evm",
+        "icon": "./icons/gnosis.png",
+        "rpcs": [
+            {
+                "url": "https://rpc.gnosischain.com",
+                "chainId": 100
+            }
+        ]
+    },
+    "graphlinq": {
+        "nativeCoinName": "GLQ",
+        "name": "Graphlinq",
+        "type": "evm",
+        "icon": "./icons/GLQ.png",
+        "rpcs": [
+            {
+                "url": "https://glq-dataseed.graphlinq.io",
+                "chainId": 614
+            }
+        ],
+        "getPriceByPoolUniswapV3": {
+            "tokenA": "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24",
+            "tokenB": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "tokenADecimals": 18,
+            "tokenBDecimals": 18,
+            "poolAddress": "0xc3881fbb90daf3066da30016d578ed024027317c",
+            "blockchain": "ethereum",
+            "mulBy": "ETH"
+        }
+    },
+    "bitcoin-cash": {
+        "nativeCoinName": "BCH",
+        "name": "Bitcoin Cash",
+        "type": "bitcoin",
+        "icon": "./icons/BCH.png",
+        "getBalanceByQuery": {
+            "url": "https://bch-chain.api.btc.com/v3/address/$address",
+            "method": "GET",
+            "resultEval": "result.data.balance"
+        },
+        "getPriceByPoolUniswapV3": {
+            "tokenA": "0x8ff795a6f4d97e7887c79bea79aba5cc76444adf",
+            "tokenB": "0x55d398326f99059ff775485246999027b3197955",
+            "tokenADecimals": 18,
+            "tokenBDecimals": 18,
+            "poolAddress": "0x1fd22fa7274bafebdfb1881321709f1219744829",
+            "blockchain": "bsc"
         }
     }
 }
