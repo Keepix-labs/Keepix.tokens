@@ -168,7 +168,7 @@
         "icon": "./icons/optimism.png",
         "rpcs": [
             {
-                "url": "https://endpoints.omniatech.io/v1/op/mainnet/public",
+                "url": "https://mainnet.optimism.io",
                 "chainId": 10
             }
         ],
