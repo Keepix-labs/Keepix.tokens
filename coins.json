@@ -327,5 +327,16 @@
                 "url": "https://test.massa.net/api/v2"
             }
         ]
+    },
+    "massa-buildnet": {
+        "nativeCoinName": "MASSA",
+        "name": "Massa Buildnet",
+        "type": "massa",
+        "icon": "./icons/MASSA.png",
+        "rpcs": [
+            {
+                "url": "https://buildnet.massa.net/api/v2"
+            }
+        ]
     }
 }
