@@ -240,5 +240,25 @@
             "poolAddress": "0x1fd22fa7274bafebdfb1881321709f1219744829",
             "blockchain": "bsc"
         }
+    },
+    "cosmos": {
+        "nativeCoinName": "ATOM",
+        "name": "Cosmos",
+        "type": "cosmos",
+        "icon": "./icons/ATOM.png",
+        "rpcs": [
+            {
+                "url": "https://cosmos-rpc.publicnode.com:443"
+            }
+        ],
+        "getPriceByPoolBalance": {
+            "tokenA": "0x0eb3a705fc54725037cc9e008bdede697f62f335",
+            "tokenB": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+            "tokenADecimals": 18,
+            "tokenBDecimals": 18,
+            "poolAddress": "0x5a36e9659f94f27e4526ddf6dd8f0c3b3386d7f3",
+            "blockchain": "bsc",
+            "mulBy": "BNB"
+        }
     }
 }
