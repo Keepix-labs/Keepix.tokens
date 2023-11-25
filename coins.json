@@ -355,5 +355,16 @@
                 "url": "wss://s2.ripple.com/"
             }
         ]
+    },
+    "koinos": {
+        "nativeCoinName": "KOIN",
+        "name": "Koinos",
+        "type": "koinos",
+        "icon": "./icons/KOIN.png",
+        "rpcs": [
+            {
+                "url": "http://api.koinos.io:8080"
+            }
+        ]
     }
 }
