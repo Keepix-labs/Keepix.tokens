@@ -363,9 +363,26 @@
         "icon": "./icons/KOIN.png",
         "rpcs": [
             {
-                "url": "http://api.koinos.io:8080"
+                "url": "http://api.koinos.io:8080",
+                "chainId": "EiBZK_GGVP0H_fXVAM3j6EAuz3-B-l3ejxRSewi7qIBfSA=="
             }
         ],
         "explorer": "https://koiner.app/"
+    },
+    "koinos-harbinger": {
+        "nativeCoinName": "KOIN",
+        "name": "Koinos Harbinger (Testnet)",
+        "type": "koinos",
+        "icon": "./icons/KOIN.png",
+        "rpcs": [
+            {
+                "url": "https://harbinger-api.koinos.io",
+                "chainId": "EiBncD4pKRIQWco_WRqo5Q-xnXR7JuO3PtZv983mKdKHSQ=="
+            },
+            {
+                "url": "https://testnet.koinosblocks.com",
+                "chainId": "EiBncD4pKRIQWco_WRqo5Q-xnXR7JuO3PtZv983mKdKHSQ=="
+            }
+        ]
     }
 }
