@@ -384,5 +384,29 @@
                 "chainId": "EiBncD4pKRIQWco_WRqo5Q-xnXR7JuO3PtZv983mKdKHSQ=="
             }
         ]
+    },
+    "near": {
+        "nativeCoinName": "NEAR",
+        "name": "NEAR",
+        "type": "near",
+        "icon": "./icons/NEAR.png",
+        "rpcs": [
+            {
+                "url": "https://rpc.mainnet.near.org"
+            }
+        ],
+        "explorer": "https://nearblocks.io/"
+    },
+    "near-testnet": {
+        "nativeCoinName": "NEAR",
+        "name": "NEAR Testnet",
+        "type": "near",
+        "icon": "./icons/NEAR.png",
+        "rpcs": [
+            {
+                "url": "https://rpc.testnet.near.org"
+            }
+        ],
+        "explorer": "https://testnet.nearblocks.io/"
     }
 }
