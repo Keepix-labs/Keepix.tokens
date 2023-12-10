@@ -408,5 +408,29 @@
             }
         ],
         "explorer": "https://testnet.nearblocks.io/"
+    },
+    "aptos": {
+        "nativeCoinName": "APT",
+        "name": "Aptos",
+        "type": "aptos",
+        "icon": "./icons/APT.png",
+        "rpcs": [
+            {
+                "url": "https://fullnode.mainnet.aptoslabs.com/v1"
+            }
+        ],
+        "explorer": "https://explorer.aptoslabs.com/?network=mainnet"
+    },
+    "aptos-testnet": {
+        "nativeCoinName": "APT",
+        "name": "Aptos Testnet",
+        "type": "aptos",
+        "icon": "./icons/APT.png",
+        "rpcs": [
+            {
+                "url": "https://fullnode.testnet.aptoslabs.com/v1"
+            }
+        ],
+        "explorer": "https://explorer.aptoslabs.com/?network=testnet"
     }
 }
