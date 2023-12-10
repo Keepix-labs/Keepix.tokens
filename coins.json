@@ -397,16 +397,19 @@
         ],
         "explorer": "https://nearblocks.io/"
     },
-    "near-testnet": {
-        "nativeCoinName": "NEAR",
-        "name": "NEAR Testnet",
-        "type": "near",
-        "icon": "./icons/NEAR.png",
+    "solana": {
+        "nativeCoinName": "SOL",
+        "name": "Solana",
+        "type": "solana",
+        "icon": "formkit:solana",
         "rpcs": [
             {
-                "url": "https://rpc.testnet.near.org"
+                "url": "https://api.mainnet-beta.solana.com"
+            },
+            {
+                "url": "https://solana.api.onfinality.io/public" 
             }
         ],
-        "explorer": "https://testnet.nearblocks.io/"
+        "explorer": "https://explorer.solana.com/"
     }
 }
