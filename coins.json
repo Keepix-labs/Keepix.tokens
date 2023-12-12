@@ -411,5 +411,29 @@
             }
         ],
         "explorer": "https://explorer.solana.com/"
+    },
+    "aptos": {
+        "nativeCoinName": "APT",
+        "name": "Aptos",
+        "type": "aptos",
+        "icon": "./icons/APT.png",
+        "rpcs": [
+            {
+                "url": "https://fullnode.mainnet.aptoslabs.com/v1"
+            }
+        ],
+        "explorer": "https://explorer.aptoslabs.com/?network=mainnet"
+    },
+    "algo": {
+        "nativeCoinName": "ALGO",
+        "name": "Algorand",
+        "type": "algo",
+        "icon": "./icons/ALGO.png",
+        "rpcs": [
+            {
+                "url": "https://mainnet-api.algonode.cloud"
+            }
+        ],
+        "explorer": "https://algoexplorer.io/"
     }
 }
