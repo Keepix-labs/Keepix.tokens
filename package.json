@@ -1,8 +1,19 @@
 {
-    "name": "keepix-tokens",
-    "version": "0.0.21",
+    "name": "@keepix/tokens",
+    "version": "0.0.22",
+    "description": "Keepix Tokens And Coins List",
+    "private": false,
     "dependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Keepix-labs/Keepix.tokens.git"
+    },
     "scripts": {
-        "start": "echo 'hello'"
-    }
+        "deploy": "npm publish --access public"
+    },
+    "author": "jguyet@keepix.io",
+    "license": "MIT",
+    "keywords": [
+        "ethereum"
+    ]
 }
