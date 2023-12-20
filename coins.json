@@ -62,7 +62,7 @@
         "nativeCoinName": "BNB",
         "name": "Binance Smart Chain",
         "type": "evm",
-        "icon": "mingcute:binance-coin-bnb-fill",
+        "icon": "./icons/BSC.png",
         "rpcs": [
             {
                 "url": "https://bsc-dataseed1.ninicoin.io",
@@ -401,7 +401,7 @@
         "nativeCoinName": "SOL",
         "name": "Solana",
         "type": "solana",
-        "icon": "formkit:solana",
+        "icon": "./icons/SOL.png",
         "rpcs": [
             {
                 "url": "https://api.mainnet-beta.solana.com"
