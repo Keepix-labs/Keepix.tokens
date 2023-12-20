@@ -411,5 +411,20 @@
             }
         ],
         "explorer": "https://explorer.solana.com/"
+    },
+    "dogecoin": {
+        "nativeCoinName": "DOGE",
+        "name": "Dogecoin",
+        "type": "bitcoin",
+        "icon": "./icons/DOGE.png",
+        "getPriceByPoolUniswapV3": {
+            "tokenA": "0xba2ae424d960c26247dd6c32edc70b295c744c43",
+            "tokenB": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+            "tokenADecimals": 8,
+            "tokenBDecimals": 18,
+            "poolAddress": "0xce6160bb594fc055c943f59de92cee30b8c6b32c",
+            "blockchain": "bsc",
+            "mulBy": "BNB"
+        }
     }
 }
