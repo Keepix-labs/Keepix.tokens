@@ -261,6 +261,17 @@
             "mulBy": "BNB"
         }
     },
+    "helios": {
+        "nativeCoinName": "HELIOS",
+        "name": "Helios",
+        "type": "helios",
+        "icon": "./icons/ATOM.png",
+        "rpcs": [
+            {
+                "url": "http://192.168.1.75:26657"
+            }
+        ]
+    },
     "chiliz": {
         "nativeCoinName": "CHZ",
         "name": "Chiliz",
