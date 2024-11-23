@@ -3,7 +3,7 @@
         "nativeCoinName": "BTC",
         "name": "Bitcoin",
         "type": "bitcoin",
-        "icon": "logos:bitcoin",
+        "icon": "./icons/BTC.png",
         "getBalanceByQuery": {
             "url": "https://blockchain.info/balance?active=$address",
             "method": "GET",
@@ -82,7 +82,7 @@
         "nativeCoinName": "AVAX",
         "name": "Avalanche",
         "type": "evm",
-        "icon": "cryptocurrency-color:avax",
+        "icon": "./icons/AVAX.png",
         "rpcs": [
             {
                 "url": "https://avalanche-mainnet.infura.io/v3/00e69497300347a38e75c3287621cb16",
@@ -118,7 +118,7 @@
         "nativeCoinName": "MATIC",
         "name": "Polygon",
         "type": "evm",
-        "icon": "cryptocurrency-color:matic",
+        "icon": "./icons/POL.png",
         "rpcs": [
             {
                 "url": "https://rpc-mainnet.maticvigil.com/",
