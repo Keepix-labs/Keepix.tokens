@@ -421,7 +421,16 @@
                 "url": "https://solana.api.onfinality.io/public" 
             }
         ],
-        "explorer": "https://explorer.solana.com/"
+        "explorer": "https://explorer.solana.com/",
+        "getPriceByPoolUniswapV3": {
+            "tokenA": "0x570a5d26f7765ecb712c0924e4de545b89fd43df",
+            "tokenB": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+            "tokenADecimals": 18,
+            "tokenBDecimals": 18,
+            "poolAddress": "0x1e4600929edf7f36b4a7eac4c7571057d82a246c",
+            "blockchain": "bsc",
+            "mulBy": "BNB"
+        }
     },
     "dogecoin": {
         "nativeCoinName": "DOGE",
