@@ -121,7 +121,11 @@
         "icon": "./icons/POL.png",
         "rpcs": [
             {
-                "url": "https://rpc-mainnet.maticvigil.com/",
+                "url": "https://polygon-bor-rpc.publicnode.com",
+                "chainId": 137
+            },
+            {
+                "url": "https://polygon-heimdall-rpc.publicnode.com:443",
                 "chainId": 137
             }
         ],
@@ -304,11 +308,7 @@
         "icon": "./icons/base.png",
         "rpcs": [
             {
-                "url": "https://1rpc.io/base",
-                "chainId": 8453
-            },
-            {
-                "url": "https://base.publicnode.com",
+                "url": "https://base-rpc.publicnode.com",
                 "chainId": 8453
             }
         ],
@@ -415,10 +415,7 @@
         "icon": "./icons/SOL.png",
         "rpcs": [
             {
-                "url": "https://api.mainnet-beta.solana.com"
-            },
-            {
-                "url": "https://solana.api.onfinality.io/public" 
+                "url": "https://solana-rpc.publicnode.com"
             }
         ],
         "explorer": "https://explorer.solana.com/",
@@ -428,21 +425,6 @@
             "tokenADecimals": 18,
             "tokenBDecimals": 18,
             "poolAddress": "0x1e4600929edf7f36b4a7eac4c7571057d82a246c",
-            "blockchain": "bsc",
-            "mulBy": "BNB"
-        }
-    },
-    "dogecoin": {
-        "nativeCoinName": "DOGE",
-        "name": "Dogecoin",
-        "type": "bitcoin",
-        "icon": "./icons/DOGE.png",
-        "getPriceByPoolUniswapV3": {
-            "tokenA": "0xba2ae424d960c26247dd6c32edc70b295c744c43",
-            "tokenB": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-            "tokenADecimals": 8,
-            "tokenBDecimals": 18,
-            "poolAddress": "0xce6160bb594fc055c943f59de92cee30b8c6b32c",
             "blockchain": "bsc",
             "mulBy": "BNB"
         }
