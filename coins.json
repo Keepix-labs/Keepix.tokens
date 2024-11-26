@@ -20,7 +20,8 @@
             "poolAddress": "0xceff51756c56ceffca006cd410b03ffc46dd3a58",
             "blockchain": "ethereum",
             "mulBy": "ETH"
-        }
+        },
+        "enabledByDefault": true
     },
     "ethereum": {
         "nativeCoinName": "ETH",
@@ -40,7 +41,8 @@
             "tokenBDecimals": 18,
             "poolAddress": "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11",
             "blockchain": "ethereum"
-        }
+        },
+        "enabledByDefault": true
     },
     "ethereum-holesky": {
         "nativeCoinName": "ETH",
@@ -56,7 +58,8 @@
                 "url": "https://1rpc.io/holesky",
                 "chainId": 17000
             }
-        ]
+        ],
+        "enabledByDefault": false
     },
     "bsc": {
         "nativeCoinName": "BNB",
@@ -76,7 +79,8 @@
             "tokenBDecimals": 18,
             "poolAddress": "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16",
             "blockchain": "bsc"
-        }
+        },
+        "enabledByDefault": true
     },
     "avalanche": {
         "nativeCoinName": "AVAX",
@@ -97,7 +101,8 @@
             "poolAddress": "0x151268db1579ebc5306d4aaa5dcc627646e6986f",
             "blockchain": "bsc",
             "mulBy": "BNB"
-        }
+        },
+        "enabledByDefault": false
     },
     "arbitrum": {
         "nativeCoinName": "ETH",
@@ -112,7 +117,8 @@
         ],
         "getPriceByPoolBalance": {
             "using": "ETH"
-        }
+        },
+        "enabledByDefault": false
     },
     "polygon": {
         "nativeCoinName": "MATIC",
@@ -137,7 +143,8 @@
             "poolAddress": "0x290a6a7460b308ee3f19023d2d00de604bcf5b42",
             "blockchain": "ethereum",
             "mulBy": "ETH"
-        }
+        },
+        "enabledByDefault": false
     },
     "tezos": {
         "nativeCoinName": "XTZ",
@@ -163,7 +170,8 @@
             "poolAddress": "0x42ead00e69394ffbb2985c1ea4fbb32aa07f6243",
             "blockchain": "bsc",
             "mulBy": "BNB"
-        }
+        },
+        "enabledByDefault": false
     },
     "optimism": {
         "nativeCoinName": "ETH",
@@ -179,7 +187,8 @@
         "explorer": "https://optimistic.etherscan.io",
         "getPriceByPoolBalance": {
             "using": "ETH"
-        }
+        },
+        "enabledByDefault": false
     },
     "ethereum-pow": {
         "nativeCoinName": "ETHW",
@@ -191,7 +200,8 @@
                 "url": "https://mainnet.ethereumpow.org",
                 "chainId": 10001
             }
-        ]
+        ],
+        "enabledByDefault": false
     },
     "gnosis": {
         "nativeCoinName": "XDAI",
@@ -203,7 +213,8 @@
                 "url": "https://rpc.gnosischain.com",
                 "chainId": 100
             }
-        ]
+        ],
+        "enabledByDefault": false
     },
     "graphlinq": {
         "nativeCoinName": "GLQ",
@@ -224,7 +235,8 @@
             "poolAddress": "0xc3881fbb90daf3066da30016d578ed024027317c",
             "blockchain": "ethereum",
             "mulBy": "ETH"
-        }
+        },
+        "enabledByDefault": false
     },
     "bitcoin-cash": {
         "nativeCoinName": "BCH",
@@ -243,7 +255,8 @@
             "tokenBDecimals": 18,
             "poolAddress": "0x1fd22fa7274bafebdfb1881321709f1219744829",
             "blockchain": "bsc"
-        }
+        },
+        "enabledByDefault": false
     },
     "cosmos": {
         "nativeCoinName": "ATOM",
@@ -263,7 +276,8 @@
             "poolAddress": "0x5a36e9659f94f27e4526ddf6dd8f0c3b3386d7f3",
             "blockchain": "bsc",
             "mulBy": "BNB"
-        }
+        },
+        "enabledByDefault": false
     },
     "helios": {
         "nativeCoinName": "HELIOS",
@@ -274,7 +288,8 @@
             {
                 "url": "http://192.168.1.75:26657"
             }
-        ]
+        ],
+        "enabledByDefault": false
     },
     "chiliz": {
         "nativeCoinName": "CHZ",
@@ -299,7 +314,8 @@
             "tokenBDecimals": 6,
             "poolAddress": "0xb0f4a77bde7fee134265307c5cc19abff0ba409b",
             "blockchain": "ethereum"
-        }
+        },
+        "enabledByDefault": false
     },
     "base": {
         "nativeCoinName": "ETH",
@@ -315,7 +331,8 @@
         "explorer": "https://basescan.org",
         "getPriceByPoolBalance": {
             "using": "ETH"
-        }
+        },
+        "enabledByDefault": false
     },
     "massa": {
         "nativeCoinName": "MASSA",
@@ -326,7 +343,8 @@
             {
                 "url": "https://massa.net/api/v2"
             }
-        ]
+        ],
+        "enabledByDefault": false
     },
     "massa-testnet": {
         "nativeCoinName": "MASSA",
@@ -337,7 +355,8 @@
             {
                 "url": "https://test.massa.net/api/v2"
             }
-        ]
+        ],
+        "enabledByDefault": false
     },
     "massa-buildnet": {
         "nativeCoinName": "MASSA",
@@ -348,7 +367,8 @@
             {
                 "url": "https://buildnet.massa.net/api/v2"
             }
-        ]
+        ],
+        "enabledByDefault": false
     },
     "xrp": {
         "nativeCoinName": "XRP",
@@ -365,7 +385,8 @@
             {
                 "url": "wss://s2.ripple.com/"
             }
-        ]
+        ],
+        "enabledByDefault": false
     },
     "koinos": {
         "nativeCoinName": "KOIN",
@@ -378,7 +399,8 @@
                 "chainId": "EiBZK_GGVP0H_fXVAM3j6EAuz3-B-l3ejxRSewi7qIBfSA=="
             }
         ],
-        "explorer": "https://koiner.app/"
+        "explorer": "https://koiner.app/",
+        "enabledByDefault": false
     },
     "koinos-harbinger": {
         "nativeCoinName": "KOIN",
@@ -394,7 +416,8 @@
                 "url": "https://testnet.koinosblocks.com",
                 "chainId": "EiBncD4pKRIQWco_WRqo5Q-xnXR7JuO3PtZv983mKdKHSQ=="
             }
-        ]
+        ],
+        "enabledByDefault": false
     },
     "near": {
         "nativeCoinName": "NEAR",
@@ -406,7 +429,8 @@
                 "url": "https://rpc.mainnet.near.org"
             }
         ],
-        "explorer": "https://nearblocks.io/"
+        "explorer": "https://nearblocks.io/",
+        "enabledByDefault": false
     },
     "solana": {
         "nativeCoinName": "SOL",
@@ -427,6 +451,7 @@
             "poolAddress": "0x1e4600929edf7f36b4a7eac4c7571057d82a246c",
             "blockchain": "bsc",
             "mulBy": "BNB"
-        }
+        },
+        "enabledByDefault": false
     }
 }
