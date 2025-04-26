@@ -1,6 +1,6 @@
 {
     "name": "@keepix/tokens",
-    "version": "0.0.34",
+    "version": "0.0.35",
     "description": "Keepix Tokens And Coins List",
     "private": false,
     "dependencies": {},

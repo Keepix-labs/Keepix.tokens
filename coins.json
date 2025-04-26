@@ -286,7 +286,7 @@
         "icon": "./icons/HLS.png",
         "rpcs": [
             {
-                "url": "http://testnet1.helioschainlabs.org",
+                "url": "https://testnet1.helioschainlabs.org",
                 "chainId": 42000
             }
         ],
