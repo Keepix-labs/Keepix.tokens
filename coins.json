@@ -279,16 +279,32 @@
         },
         "enabledByDefault": false
     },
-    "helios": {
-        "nativeCoinName": "HELIOS",
-        "name": "Helios",
-        "type": "helios",
+    "helios-testnet": {
+        "nativeCoinName": "HLS",
+        "name": "Helios Testnet",
+        "type": "evm",
         "icon": "./icons/ATOM.png",
         "rpcs": [
             {
-                "url": "http://192.168.1.75:26657"
+                "url": "http://testnet1.helioschainlabs.org",
+                "chainId": 42000
             }
         ],
+        "explorer": "https://explorer.helioschainlabs.org",
+        "enabledByDefault": false
+    },
+    "helios-local": {
+        "nativeCoinName": "HLS",
+        "name": "Helios Local",
+        "type": "evm",
+        "icon": "./icons/ATOM.png",
+        "rpcs": [
+            {
+                "url": "http://localhost:8545",
+                "chainId": 42000
+            }
+        ],
+        "explorer": "https://explorer.helioschainlabs.org",
         "enabledByDefault": false
     },
     "chiliz": {
