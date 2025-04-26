@@ -279,11 +279,11 @@
         },
         "enabledByDefault": false
     },
-    "helios-testnet": {
+    "helios": {
         "nativeCoinName": "HLS",
         "name": "Helios Testnet",
         "type": "evm",
-        "icon": "./icons/ATOM.png",
+        "icon": "./icons/HLS.png",
         "rpcs": [
             {
                 "url": "http://testnet1.helioschainlabs.org",
@@ -297,7 +297,7 @@
         "nativeCoinName": "HLS",
         "name": "Helios Local",
         "type": "evm",
-        "icon": "./icons/ATOM.png",
+        "icon": "./icons/HLS.png",
         "rpcs": [
             {
                 "url": "http://localhost:8545",
